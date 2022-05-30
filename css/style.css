@@ -1,0 +1,143 @@
+/*============ BOOTSTRAP ============*/
+
+@import url(bootstrap.css);
+
+/*============ FONTAWESOME ============*/
+
+@import url(../fonts/font-awesome.min.css);
+
+/*============ HEADER ============*/
+
+@import url(sections/header.css);
+
+/*============ Slider ============*/
+
+@import url(sections/slider.css);
+
+/*============ Slider ============*/
+
+@import url(sections/products.css);
+
+/*============ FOOTER ============*/
+
+@import url(sections/footer.css);
+
+/*============ MODAL ============*/
+
+@import url(sections/modal.css);
+
+/*============ SINGLE PRODUCT ============*/
+
+@import url(single_product.css);
+
+/*============ AUTHENTICATION ============*/
+
+@import url(authentication.css);
+
+/*============ COSTUME ============*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg_color {
+    background: #f8f8f9;
+}
+
+.overlay-background {
+    background: #333;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.title {
+    padding: 25px;
+    color: #5a88ca;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffb200;
+    text-decoration: none;
+}
+
+.custome-btn {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+}
+
+.custome-btn:hover {
+    color: #fff;
+    background-color: #5a88ca;
+    border-color: #5a88ca;
+}
+
+.custome-fill-btn {
+    color: #ffffff;
+    background-color: #5a88ca;
+}
+
+.custome-fill-btn:hover {
+    color: #5a88ca;
+    background-color: transparent;
+    background-image: none;
+    border-color: #5a88ca;
+}
+
+img {
+    max-width: 100%;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    float: right;
+    padding: 0 25px;
+    margin: 0;
+    color: #3b5998;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-left: 1px solid #3b5998
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about .about_image {
+    padding: 0 25px;
+}
+
+.about .about_info {
+    padding-top: 75px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatsapp {
+    color: #25D366;
+}
